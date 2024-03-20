@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ1DIAHAYUKINANTI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body id="bg"> 
+        <div style="padding: 5%"> 
+            <h1 style="margin-left: 8%;">QUIZ1</h1> 
+            <p style="margin-left: 8%;">Nama : Diah Ayu Kinanti</p> 
+            <p style="margin-left: 8%;">NIM : 12250124556</p> 
+        </div> 
+     
+        <div class="container"> 
+            <div class="img-container"> 
+                <img src="img/1.jpeg" alt="Gambar 1"> 
+                <p style="text-align: center;">- Parfum Chanel Bleu De Chanel Man EDP
+                    - Untuk : Pria
+                    - Jenis : EDP
+                    - Ukuran : 100ml
+                    - Base Note : Labdanum, Nutmeg, Ginger, Sandalwood, Patchouli, Mint, Jasmine, Grapefruit, Citruses, Vetiver, Incense, Cedar, Pink Pepper
+                    
+                    BPOM : NC14210600503</p> 
+                <button type="button" class="btn btn-secondary" onclick="ubahWarna1()">Ganti Warna</button> 
+            </div> 
+            <div class="img-container"> 
+                <img src="img/2.jpg" alt="Gambar 2"> 
+                <p style="text-align: center;">- Christian Dior J’adore l’or Woman Essence de Parfum
+                    - Untuk : Wanita
+                    - Jenis : Essence de Parfum
+                    - Ukuran : 50 ML
+                    - Top Note : Jasmine and Rose.
+                    - Middle Note : Vanille and Tonka Bean.
+                    - Base Note : Amber, French labdanum, and Patchouli.
+                    - Parfum Christian Dior J’adore l’or Woman Essence de Parfum diluncurkan pada tahun 2023.
+                    
+                    - No BPOM : NC14230600509</p> 
+                <button type="button" class="btn btn-secondary" onclick="ubahWarna2()">Ganti Warna</button> 
+            </div> 
+            <div class="img-container"> 
+                <img src="img/3.jpeg" alt="Gambar 3"> 
+                <p style="text-align: center;">-Parfum Christian Dior Miss Dior Blooming Bouquet Woman
+                    -Untuk : Wanita
+                    -Jenis : EDT
+                    -Ukuran : 100ml
+                    -Top Note : Sicilian Orange
+                    -Middle Note : Peony, Damask Rose, Apricot
+                    -Base Note : White Musk
+                    -Parfum Christian Dior Miss Dior Blooming Bouquet Woman diluncurkan pada tahun 2014
+                    
+                    
+                    
+                    No BPOM : NC14210600278</p> 
+                <button type="button" class="btn btn-secondary" onclick="ubahWarna3()">Ganti Warna</button> 
+            </div> 
+        </div> 
+     
+        <script> 
+            function ubahWarna1() { 
+                document.getElementById("bg").style.backgroundColor = "brown"; 
+            } 
+     
+            function ubahWarna2() { 
+                document.getElementById("bg").style.backgroundColor = "yellow"; 
+            } 
+            function ubahWarna3() { 
+            document.getElementById("bg").style.backgroundColor = "orange"; 
+        } 
+    </script> 
+ 
+    <style> 
+        img { 
+            width: 100%; 
+            height: auto; 
+        } 
+ 
+        .container { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            flex-wrap: wrap; 
+            padding: 20px; 
+        } 
+ 
+        .img-container { 
+            flex-basis: 30%; 
+            margin-bottom: 20px; 
+        } 
+    </style> 
+</body>
+</html>
